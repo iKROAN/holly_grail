@@ -1,38 +1,47 @@
 /* line 1, C:/Users/kroan_000/Desktop/Webbutveckling 2/holly_grail/sass/holly_grail.sass */
 body {
-  background: #555; }
+  background: #555;
+  margin: 0;
+  padding: 0; }
 
-/* line 5, C:/Users/kroan_000/Desktop/Webbutveckling 2/holly_grail/sass/holly_grail.sass */
+/* line 7, C:/Users/kroan_000/Desktop/Webbutveckling 2/holly_grail/sass/holly_grail.sass */
 .kontainer header {
   background: orange;
   height: 100px;
-  padding: 20px; }
+  padding: 20px;
+  position: fixed;
+  width: 100%; }
 
-/* line 10, C:/Users/kroan_000/Desktop/Webbutveckling 2/holly_grail/sass/holly_grail.sass */
+/* line 14, C:/Users/kroan_000/Desktop/Webbutveckling 2/holly_grail/sass/holly_grail.sass */
 .kontainer main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: stretch;
-  align-items: stretch; }
-  /* line 18, C:/Users/kroan_000/Desktop/Webbutveckling 2/holly_grail/sass/holly_grail.sass */
+  align-items: stretch;
+  padding-top: 140px;
+  padding-bottom: 90px; }
+  /* line 24, C:/Users/kroan_000/Desktop/Webbutveckling 2/holly_grail/sass/holly_grail.sass */
   .kontainer main .sidebar1 {
     width: 15%;
     background: yellow; }
-  /* line 22, C:/Users/kroan_000/Desktop/Webbutveckling 2/holly_grail/sass/holly_grail.sass */
+  /* line 28, C:/Users/kroan_000/Desktop/Webbutveckling 2/holly_grail/sass/holly_grail.sass */
   .kontainer main .text {
     width: 70%;
     background: blue; }
-  /* line 26, C:/Users/kroan_000/Desktop/Webbutveckling 2/holly_grail/sass/holly_grail.sass */
+  /* line 32, C:/Users/kroan_000/Desktop/Webbutveckling 2/holly_grail/sass/holly_grail.sass */
   .kontainer main .sidebar2 {
     width: 15%;
     background: yellow; }
 
-/* line 30, C:/Users/kroan_000/Desktop/Webbutveckling 2/holly_grail/sass/holly_grail.sass */
+/* line 36, C:/Users/kroan_000/Desktop/Webbutveckling 2/holly_grail/sass/holly_grail.sass */
 .kontainer footer {
   background: orange;
   height: 50px;
-  padding: 20px; }
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
 
 /*# sourceMappingURL=holly_grail.css.map */
